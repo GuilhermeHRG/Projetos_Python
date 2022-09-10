@@ -1,5 +1,6 @@
 txt=input("digite ou cole um texto base aqui >> ")
+print(f'o texto tem {len(txt.strip())} caracteres')
 print(f'texto base: {txt}')
 print('')
 substring = input('o que deseja procurar? ')
-print(f'temos {txt.count(substring)}  "{substring}"  no texto  ')
+print(f'temos {txt.upper().count(substring)}  "{substring}"  no texto  ')
